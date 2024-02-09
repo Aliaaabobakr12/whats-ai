@@ -6,7 +6,7 @@ export default function Loading() {
     <motion.div
       className="flex h-screen items-center justify-center absolute bg-white z-40 w-full"
       initial={{ x: 0 }}
-      animate={{ x: -2000, opacity: 30 }}
+      animate={{ x: -2000, opacity: 0.5 }}
       transition={{
         duration: 1,
         type: "tween",
