@@ -27,7 +27,7 @@ export default function Home() {
       <motion.img
         src="/bg.png"
         alt="whatsapp"
-        className="absolute inset-0 h-full w-full -z-10 object-cover"
+        className="min-h-screen absolute inset-0 h-full w-full -z-10 object-cover"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.04 }}
         transition={{
