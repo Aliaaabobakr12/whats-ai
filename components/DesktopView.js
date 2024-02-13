@@ -13,7 +13,7 @@ export default function DesktopView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1.4,
           }}
         ></motion.div>
         <motion.p
@@ -23,7 +23,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         >
           Introducing
@@ -37,7 +37,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         />
       </div>
@@ -50,7 +50,7 @@ export default function DesktopView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1.4,
           }}
         ></motion.div>
         <motion.p
@@ -60,7 +60,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         >
           WhatsApp
@@ -72,7 +72,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         ></motion.div>
       </div>
@@ -85,7 +85,7 @@ export default function DesktopView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1.4,
           }}
         ></motion.div>
         <motion.p
@@ -95,7 +95,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         >
           AI Assistant
@@ -107,7 +107,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         ></motion.div>
       </div>
@@ -119,7 +119,7 @@ export default function DesktopView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1.4,
           }}
         ></motion.div>
         <motion.p
@@ -129,7 +129,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         >
           Generate your own unique stickers and images, start chatting now!
@@ -143,7 +143,7 @@ export default function DesktopView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1.4,
           }}
         ></motion.div>
         <motion.button
@@ -153,7 +153,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1.4,
+            delay: 2.4,
           }}
         >
           Start now for free!

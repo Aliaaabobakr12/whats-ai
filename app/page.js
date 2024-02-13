@@ -7,10 +7,12 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSnapchatSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import Loading from "@/components/Loading";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen justify-center py-6 lg:py-10 w-full items-center gap-10">
+      <Loading />
       <motion.img
         src="/logo.png"
         alt="whatsapp"
@@ -44,7 +46,7 @@ export default function Home() {
             transition={{
               duration: 1,
               type: "tween",
-              delay: 1.5,
+              delay: 2.4,
             }}
           />
           <motion.img
@@ -56,7 +58,7 @@ export default function Home() {
             transition={{
               duration: 1,
               type: "tween",
-              delay: 1.5,
+              delay: 2.6,
             }}
           />
           <motion.img
@@ -68,7 +70,7 @@ export default function Home() {
             transition={{
               duration: 0.5,
               type: "tween",
-              delay: 1.8,
+              delay: 2.6,
             }}
           />
           <motion.img
@@ -80,7 +82,7 @@ export default function Home() {
             transition={{
               duration: 0.5,
               type: "tween",
-              delay: 1.8,
+              delay: 2.6,
             }}
           />
         </div>

@@ -13,7 +13,7 @@ export default function MobView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1,
           }}
         ></motion.div>
         <motion.p
@@ -23,7 +23,7 @@ export default function MobView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 2,
           }}
         >
           WhatsApp
@@ -35,7 +35,7 @@ export default function MobView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 2,
           }}
         ></motion.div>
       </div>
@@ -48,7 +48,7 @@ export default function MobView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1,
           }}
         ></motion.div>
         <motion.p
@@ -58,7 +58,7 @@ export default function MobView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 2,
           }}
         >
           AI Assistant
@@ -70,7 +70,7 @@ export default function MobView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 2,
           }}
         ></motion.div>
       </div>
@@ -82,7 +82,7 @@ export default function MobView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1,
           }}
         ></motion.div>
         <motion.p
@@ -92,7 +92,7 @@ export default function MobView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 2,
           }}
         >
           Generate your own unique stickers and images, start chatting now!
@@ -106,7 +106,7 @@ export default function MobView() {
           transition={{
             duration: 1.5,
             type: "tween",
-            delay: 0.1,
+            delay: 1,
           }}
         ></motion.div>
         <motion.button
@@ -116,7 +116,7 @@ export default function MobView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 2,
           }}
         >
           Start now for free!
