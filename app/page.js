@@ -62,7 +62,7 @@ export default function Home() {
           <motion.img
             src="/glasses.png"
             alt="whatsapp"
-            className="w-32 absolute bottom-0"
+            className="w-32 absolute bottom-0 animate-bounce"
             initial={{ y: 25, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
@@ -74,7 +74,7 @@ export default function Home() {
           <motion.img
             src="/crazy.png"
             alt="whatsapp"
-            className="w-28 absolute top-16 right-0"
+            className="w-28 absolute top-16 right-0 animate-bounce"
             initial={{ y: 25, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{

@@ -23,7 +23,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         >
           Introducing
@@ -37,7 +37,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         />
       </div>
@@ -60,7 +60,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         >
           WhatsApp
@@ -72,7 +72,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         ></motion.div>
       </div>
@@ -95,7 +95,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         >
           AI Assistant
@@ -107,7 +107,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         ></motion.div>
       </div>
@@ -129,7 +129,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         >
           Generate your own unique stickers and images, start chatting now!
@@ -153,7 +153,7 @@ export default function DesktopView() {
           transition={{
             duration: 0.8,
             type: "tween",
-            delay: 1,
+            delay: 1.4,
           }}
         >
           Start now for free!
