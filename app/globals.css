@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 .text-large {
-  font-size: clamp(2.25rem, 0.2914rem + 6.2676vw, 7.8125rem);
+  font-size: clamp(2.5rem, 0.6294rem + 5.9859vw, 7.8125rem);
+}
+
+.text-mid {
+  font-size: clamp(0.875rem, 0.787rem + 0.2817vw, 1.125rem);
 }
 
 .loader {

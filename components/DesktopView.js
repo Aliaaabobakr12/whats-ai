@@ -123,7 +123,7 @@ export default function DesktopView() {
           }}
         ></motion.div>
         <motion.p
-          className="text-[#898989] text-lg w-full h-fit mb-4"
+          className="text-[#898989] text-lg w-full h-fit mb-4 text-mid"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
