@@ -66,7 +66,7 @@ export default function DesktopView() {
           WhatsApp
         </motion.p>
         <motion.div
-          className="w-full h-2 absolute bg-primary bottom-[17%]"
+          className="w-full h-2 absolute bg-primary bottom-[18%]"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -101,7 +101,7 @@ export default function DesktopView() {
           AI Assistant
         </motion.p>
         <motion.div
-          className="w-full h-2 absolute bg-black bottom-[17%]"
+          className="w-full h-2 absolute bg-black bottom-[18%]"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
