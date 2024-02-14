@@ -11,7 +11,7 @@ import Loading from "@/components/Loading";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen justify-center py-6 lg:py-10 w-full items-center gap-10">
+    <div className="flex flex-col min-h-screen justify-center py-4 lg:py-10 w-full items-center gap-10">
       <Loading />
       <motion.img
         src="/logo.png"
@@ -27,7 +27,7 @@ export default function Home() {
       <motion.img
         src="/bg.png"
         alt="whatsapp"
-        className="min-h-screen absolute inset-0 h-full w-full -z-10 object-cover"
+        className="fixed min-h-screen w-full -z-10 object-cover inset-0"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.04 }}
         transition={{
@@ -35,12 +35,12 @@ export default function Home() {
           type: "tween",
         }}
       />
-      <div className="flex items-center lg:gap-36 lg:flex-row flex-col-reverse">
-        <div className="relative">
+      <div className="flex items-center justify-center lg:gap-36 lg:flex-row flex-col-reverse">
+        <div className="relative w-[75%] lg:w-[27%] ">
           <motion.img
             src="/mobMockUp.png"
             alt="whatsapp"
-            className="w-[350px] lg:hidden flex"
+            className="w-full h-full lg:hidden flex"
             initial={{ y: 25, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
@@ -52,7 +52,7 @@ export default function Home() {
           <motion.img
             src="/lightModeWeb.png"
             alt="whatsapp"
-            className="w-[350px] lg:flex hidden"
+            className="w-full h-full lg:flex hidden"
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{
@@ -64,7 +64,7 @@ export default function Home() {
           <motion.img
             src="/glasses.png"
             alt="whatsapp"
-            className="w-32 absolute bottom-0 animate-bounce"
+            className="w-[40%] absolute bottom-0 animate-bounce"
             initial={{ y: 25, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
@@ -76,7 +76,7 @@ export default function Home() {
           <motion.img
             src="/crazy.png"
             alt="whatsapp"
-            className="w-28 absolute top-16 right-0 animate-bounce"
+            className="w-[30%] absolute top-16 right-0 animate-bounce"
             initial={{ y: 25, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{

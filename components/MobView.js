@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function MobView() {
   return (
-    <div className="flex flex-col px-4 gap-2 items-center lg:hidden">
+    <div className="flex flex-col px-4 gap-1 items-center lg:hidden">
       <div className="overflow-hidden h-full w-fit relative">
         <motion.div
           className="w-full h-full bg-primary absolute"
@@ -17,7 +17,7 @@ export default function MobView() {
           }}
         ></motion.div>
         <motion.p
-          className="font-bold text-primary leading-none text-5xl"
+          className="font-bold text-primary leading-none text-large"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -52,7 +52,7 @@ export default function MobView() {
           }}
         ></motion.div>
         <motion.p
-          className="font-bold text-5xl"
+          className="font-bold text-large"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -86,7 +86,7 @@ export default function MobView() {
           }}
         ></motion.div>
         <motion.p
-          className="text-[#898989] text-center mb-4"
+          className="text-[#898989] text-center"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -110,7 +110,7 @@ export default function MobView() {
           }}
         ></motion.div>
         <motion.button
-          className="bg-primary font-semibold italic py-2 px-8 w-fit text-white rounded-full shadow-md hover:bg-primary/85 pointer-events-auto mb-8 mt-2"
+          className="bg-primary font-semibold italic py-2 px-8 w-fit text-white rounded-full shadow-md hover:bg-primary/85 pointer-events-auto mb-6 mt-2"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{

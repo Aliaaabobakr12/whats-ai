@@ -54,7 +54,7 @@ export default function DesktopView() {
           }}
         ></motion.div>
         <motion.p
-          className="font-bold text-[100px] text-primary leading-tight text-5xl"
+          className="font-bold text-large text-primary leading-tight"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -89,7 +89,7 @@ export default function DesktopView() {
           }}
         ></motion.div>
         <motion.p
-          className="font-bold text-[100px] leading-tight text-5xl"
+          className="font-bold text-large leading-tight"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -123,7 +123,7 @@ export default function DesktopView() {
           }}
         ></motion.div>
         <motion.p
-          className="text-[#898989] text-lg w-full text-center h-fit mb-4"
+          className="text-[#898989] text-lg w-full h-fit mb-4"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
