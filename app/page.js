@@ -11,7 +11,7 @@ import Loading from "@/components/Loading";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen lg:justify-center py-4 lg:py-10 w-full items-center gap-2">
+    <div className="flex flex-col min-h-screen lg:justify-center py-4 lg:py-10 w-full items-center gap-2 pointer-events-none">
       <Loading />
       <motion.img
         src="/logo.png"
