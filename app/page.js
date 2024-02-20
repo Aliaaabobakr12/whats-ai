@@ -91,7 +91,7 @@ export default function Home() {
       </div>
 
       <motion.div
-        className="flex flex-col items-center w-full justify-center gap-1 lg:absolute bottom-4 lg:bottom-10 text-xs lg:text-sm"
+        className="flex flex-col items-center w-full justify-center gap-1 lg:absolute bottom-4 lg:bottom-[4%] text-xs lg:text-sm"
         initial={{ y: 25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
